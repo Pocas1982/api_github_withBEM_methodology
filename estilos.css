@@ -50,11 +50,16 @@
       border: 0;
       outline: none;
   }
+  .msjerror {
+      text-align: center;
+}
   .card{
       text-align: center;
       border: 3px solid #ddf0c2;
       margin-top: 65px;
       padding-bottom: 10px;
+      display: none;
+      flex-direction: column;
   }
   .card__image{
       background-color: beige;
