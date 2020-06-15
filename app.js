@@ -51,7 +51,16 @@ const followers = document.querySelector('.followers');
 
  }
 
+ // funcion al hacer click
+ function  enter(){
+     if(event.keyCode == 13 ){
+         return data ();
+     }
+    
+ }
+
  button.addEventListener("click", data);
+ input.addEventListener("keydown", enter);
 
 
 
