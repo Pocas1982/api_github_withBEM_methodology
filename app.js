@@ -32,6 +32,7 @@ const followers = document.querySelector('.followers');
                 error.innerHTML = null;
                 avatar.src = dataInfo.avatar_url;
                 user.innerHTML = dataInfo.login;
+                user.href =  `https://github.com/${username}`;
                 name.innerHTML = dataInfo.name;
                 city.innerHTML = dataInfo.location;
                 repospublic.innerHTML = dataInfo.public_repos;
