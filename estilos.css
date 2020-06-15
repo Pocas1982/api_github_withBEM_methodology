@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'MuseoModerno', cursive;
+  }
+
+  .main{
+      background-color: #0eb29a;
+      height: 100vh;
+  }
+  .wrapper{
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 50px 0;
+  }
+
+  .form{
+      display: inline-flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  .form__text{
+      border-radius: 5px;
+      height: 40px;
+      border: 0;
+      padding-left: 10px;
+      font-size: 15px;
+      margin-bottom: 15px;   
+      outline: none;
+  }
+  .form__button{
+      height: 40px;
+      border-radius: 5px;
+      border: 0;
+      background-color: #ddf0c2;
+      transition: 0.7s ease-in;
+      cursor: pointer;
+  }
+  .form__button:hover{
+      background-color: #b6ce95;
+     
+
+  }
+  .form__button:focus{
+      border: 0;
+      outline: none;
+  }
+  .card{
+      text-align: center;
+      border: 3px solid #ddf0c2;
+      margin-top: 65px;
+      padding-bottom: 10px;
+  }
+  .card__image{
+      background-color: beige;
+      border: 3px solid #ddf0c2;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      margin: -50px auto 10px;
+  }
+  .card__username{
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+   
+  }
+  .card__info-texto{ 
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      margin: 5px 0px; 
+  }
+  .card__info{
+      color: #f5fdff;
+  }
